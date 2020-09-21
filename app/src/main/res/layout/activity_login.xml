@@ -20,6 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/app_title"
+        android:layout_gravity="center"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="@color/colorRed"
@@ -27,11 +28,13 @@
         android:textSize="20dp"/>
 
     <EditText
+        android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/login_username"/>
 
     <EditText
+        android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/login_password"
@@ -57,6 +60,7 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
