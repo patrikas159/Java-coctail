@@ -16,6 +16,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         final EditText username = findViewById(R.id.username);
+        final EditText password = findViewById(R.id.password);
 
         Button login = findViewById(R.id.login);
 
@@ -23,6 +24,13 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // čia bus vykdomas kodas, kai paspaudžiamas mygtukas
+                // Kuriamas User klases objektas
+                //  public User(String username, String password)
+                User user=new User(username.getText().toString(),password.getText().toString());
+
+                Toast.makeText(LoginActivity.this,"prisijungimo vardas:"+
+                        user.getUsername() + "\n" + "slaptazodis:" +
+                        user.getPassword(), Toast.LENGTH_LONG).show();
                 Toast.makeText(LoginActivity.this,
                         username.getText().toString(),
                         Toast.LENGTH_SHORT).show();
