@@ -48,7 +48,7 @@
         android:id="@+id/rememberMe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/login_remember_me"/>
+        android:hint="@string/login_checkbox"/>
 
     <Space
         android:layout_width="match_parent"
@@ -73,7 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/login_register_btn"
-            android:background="@color/colorGray"/>
+            android:background="@color/colorGrey"/>
 
     </LinearLayout>
 
