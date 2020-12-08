@@ -23,7 +23,7 @@
         android:layout_gravity="center"
         android:textAlignment="center"
         android:textAllCaps="true"
-        android:textColor="@color/colorRed"
+        android:textColor="@color/colorGreen"
         android:fontFamily="monospace"
         android:textSize="20dp"/>
 
@@ -66,14 +66,14 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/login_login_btn"
-            android:background="@color/colorRed"/>
+            android:background="@color/colorLightGreen"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/login_register_btn"
-            android:background="@color/colorGrey"/>
+            android:background="@color/colorLightBlue"/>
 
     </LinearLayout>
 
